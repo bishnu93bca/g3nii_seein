@@ -1,0 +1,819 @@
+/**
+ *  General CSS 
+ *  To be used everywhere
+**/
+:root:before{
+  background-image: url('../img/header_background.png');
+  background-image: url('../img/header_background_shadow.png');
+  background-image: url('../img/banner_top.png');
+  background-image: url('../img/banner_2.png');
+  background-image:  url('../img/center_banner.png');
+  background-image:  url('../img/banner_bottom.png');
+  content:url('../img/Block-1.png');
+  content:url('../img/2.png');
+  content:url('../img/logo.png');
+  content:url('../img/mood_adventure_banner_2.png');
+  content:url('../img/popup_main.png');
+  visibility: hidden;
+  position: absolute;
+  left:-999em;
+}
+
+@font-face {
+  font-family: 'Gotham-Black';
+  src:  url('../fonts/gotham-black-webfont.woff') format('woff'),
+        url('../fonts/gotham-black-webfont.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gotham-Light';
+  src:  url('../fonts/gotham-light-webfont.woff') format('woff'),
+        url('../fonts/gotham-light-webfont.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gotham-Bold';
+  src:  url('../fonts/gotham-bold-webfont.woff') format('woff'),
+        url('../fonts/gotham-bold-webfont.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gotham-Book';
+  src:  url('../fonts/gotham-book-webfont.woff') format('woff'),
+        url('../fonts/gotham-book-webfont.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Gotham-Medium';
+  src:  url('../fonts/gotham-medium-webfont.woff') format('woff'),
+        url('../fonts/gotham-medium-webfont.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Honey-Script-Semi';
+  src:  url('../fonts/HoneyScript-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Honey-Script-Light';
+  src:  url('../fonts/HoneyScript-Light.ttf') format('truetype');
+}
+
+
+body {overflow-x: hidden;}
+
+.font-white{
+  color:white;
+}
+
+
+
+.head_bigtext{
+  font-family: 'Gotham-Bold';
+  font-size:42px;
+  color:white;
+  margin-top: 200px;
+}
+
+.head_minitext{
+  font-family: 'Gotham-Black';
+  font-size: 14px;
+  color: white;
+}
+
+.head_maintext{
+  font-family: 'Gotham-Bold';
+  font-size:20px;
+}
+
+.head_maintext2{
+  font-family: 'Gotham-Book';
+  font-size:20px;
+}
+
+.head_maintext3{
+  font-family: 'Gotham-Light';
+  font-size:20px;
+}
+
+.head_subtext{
+  font-family: 'Gotham-Book';
+  font-size:14px;
+}
+
+.head_subtext2{
+  font-family: 'Gotham-Bold';
+  font-size:14px;
+}
+
+.head_microtext{
+  font-family: 'Gotham-Book';
+  font-size:12px;
+}
+
+.stylish_semi_text{
+  font-family: 'Honey-Script-Semi';
+  color:yellow;
+  font-size:60px;
+}
+
+
+#full-width {
+   padding: 0;
+   margin:0, auto;
+   
+} 
+
+.new_break{
+  margin-top:200px;
+}
+.big_break{
+    margin-top:60px;
+}
+.medium_break{
+    margin-top:40px;
+}
+.small_break{
+    margin-top:20px;
+}
+.small_padding{
+    padding:20px;
+}
+.mini_padding{
+    padding:10px;
+}
+
+.footer{
+ /* background-color: #997349;
+  color:white;*/
+}
+
+.borderless td, .borderless th {
+    border: none;
+}
+
+.navbar{
+  background-image: url('../img/header_background.png');
+  height:88px;
+}
+.navbar_shadow{
+  background-image: url('../img/header_background_shadow.png');
+  height:88px;
+}
+
+.navbar-header{
+	position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin:0 auto;
+}
+.navbar-inner {
+  background: none !important; 
+  border: 0 !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+
+
+.stylish-input-group .input-group-addon{
+    background: transparent; !important; 
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    box-shadow: none; 
+
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+
+}
+.stylish-input-group .form-control{
+	background: transparent; !important; 
+	border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    box-shadow: none; 
+
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+.stylish-input-group select{
+    border:0;
+    height: 20px;
+    background:transparent;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+.owl-carousel{
+  margin: auto;
+}
+
+
+
+#banner_gallery{
+  margin-top:30px;
+  background-color:black;
+  height:494px;
+
+
+}
+
+#banner_gallery_other{
+  margin-top:30px;
+  background-image: url('../img/banner_2.png');
+  height:480px;
+
+}
+
+#banner_gallery .button{
+    border-radius: 25px;
+    border: 1px solid white;
+    padding: 5px;
+    width: 200px;
+    border-color: white;
+    color:white;
+
+}
+
+#content{ position: absolute; min-height: 494px; min-width: 100%; z-index: 4; }
+
+#video{
+ position: absolute; left: 0px; top: 0px; height:494px; min-width: 100%; z-index: 3; 
+}
+#overlay { position: absolute; left: 0px; top: 0px; height: 100%; width: 100%; z-index: 1; }
+
+/**
+ * others ctp
+ * Other default page.ctp
+*/
+
+.gray_background{
+    background-color: #f0f0f0;
+}
+
+#page_horizontal li{ display: inline; padding: 10px;}
+
+.slideToggleClass dd{display:inline;}
+
+/**
+ *  Home page css
+ *  Related to home page only
+**/
+
+#home_adventure_mood{
+    margin-top:40px;
+}
+#home_adventure_images .img_adventures{
+  margin:auto;
+  padding: auto;
+  height:100%;
+  width:414px;
+  color:white;
+
+}
+
+#home_adventure_images{
+  margin-left:25px;
+  margin-right: 25px;
+
+}
+#home_adventure_images .month{
+    border-radius: 25px;
+    border: 1px solid white;
+    padding: 2px;
+    width: 100px;
+    background-color: transparent;
+    color:white;
+}
+
+#home_adventure_images .button{
+    border-radius: 25px;
+    border: 1px solid white;
+    padding: 5px;
+    width: 100px;
+    border-color: black;
+    background-color: white;
+}
+
+
+#home_trip_by_month .background_image{
+    background-image:  url('../img/center_banner.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center top;
+    min-height:300px;
+    height:100%;
+    background-color: black;
+
+}
+
+#home_trip_by_month .header{
+    color:white;
+}
+
+#home_trip_by_month .month{
+    border-radius: 25px;
+    border: 1px solid white;
+    padding: 2px;
+    width: 100%;
+    background-color: transparent;
+    color:white;
+    margin: auto;
+}
+
+#home_trip_by_month .row_padding{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#home_destination_blocks .center_content{
+  margin:auto;
+  padding:auto;
+  height:100%;
+  width:170px;
+}
+
+#home_destination_blocks .old_destination{
+  margin:auto;
+}
+
+#home_destination_blocks .button{
+    border-radius: 25px;
+    border: 1px solid white;
+    padding: 5px;
+    width: 100px;
+    border-color: black;
+    background-color: white;
+}
+
+#home_destination_blocks .month{
+    border-radius: 25px;
+    border: 1px solid white;
+    padding: 5px;
+    width: 100px;
+    color:white;
+    border-color: white;
+}
+#home_destination_blocks .destination_name{
+  color:white;
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+
+#home_best_offers .background_image{
+    background-image:  url('../img/banner_bottom.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    height:100%;
+}
+
+#home_best_offers .center_content{
+  margin:auto;
+  height:100%;
+  width:400px;
+}
+
+#home_best_offers .home_card{
+    margin: auto;
+    height:470px;
+    width:270px;
+    padding: 10px;
+    background-color: white;
+}
+#home_best_offers .home_best_offer_text{
+    color:white;
+}
+
+#home_best_offers .button{
+    border-radius: 25px;
+    border: 1px solid white;
+    padding: 2px;
+    width: 150px;
+    border-color: black;
+    background-color: white;
+}
+
+#home_fill_form .textarea{
+    width: 300px; 
+    height: 300px;
+}
+
+#home_fill_form .button{
+    border-radius: 25px;
+    border: 1px solid white;
+    padding: 2px;
+    width: 150px;
+    border-color: yellow;
+    background-color: yellow;
+}
+
+#home_background_yellow{
+    background-color: yellow;
+    background-size: 100%;
+    height:100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+#home_background_yellow .text_compress{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#home_background_yellow .glyphicon{
+    font-size:25px;
+}
+
+#home_map{
+    height: 200px;
+    width: 100%;
+}
+
+
+/**
+ *  Packagedetails page css
+ *  Related to packagedetails page only
+**/
+ #packagedetails_destination_filters dt{
+    padding-bottom: 5px;
+  }
+
+  #packagedetails_destination_filters dd{
+    padding-bottom: 5px;
+    font-weight: normal;
+  }
+
+  #packagedetails_destination_filters{
+    background-color: #dbdbdb;
+    padding-top:10px;
+ }
+
+ #packagedetails_destination_filters .row_padding{
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #dbdbdb;
+ }
+
+ #packagedetails_destination_filters .glyphicon{
+    font-size: 12px;
+ }
+#packagedetails_best_offers{
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+#packagedetails_best_offers .packagedetails_card{
+    height:250px;
+    width:500px;
+    background-color: white;
+    margin: 0 auto;
+    padding-right: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dbdbdb; 
+}
+
+#packagedetails_best_offers .button1{
+    border-radius: 25px;
+    border: 1px solid black;
+    padding: 2px;
+    width: 100px;
+    background-color: white;
+}
+
+#packagedetails_best_offers .button2{
+    border-radius: 25px;
+    border: 1px solid #f1d21f;
+    padding: 2px;
+    width: 100px;
+    background-color: #f1d21f;
+}
+
+#packagedetails_best_offers .icon_text{
+    font-size: 10px;
+    font-weight: normal;
+}
+
+#packagedetails_best_offers .information{
+    background-color: #f0f0f0;
+    font-weight: normal;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.separator{
+    margin-top: 20px;
+}
+
+.leftside_modal{
+    padding-left: 20px;
+}
+.not_available_image{
+    margin-top: 14%;
+    margin-left: -10%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+
+
+
+/*
+ * Packages page css
+ * Only related to packages
+ */
+ #packages_adventure_filters dt{
+    padding-bottom: 5px;
+  }
+
+  #packages_adventure_filters dd{
+    padding-bottom: 5px;
+    font-weight: normal;
+  }
+
+  #packages_adventure_filters{
+    background-color: #dbdbdb;
+    padding-top:10px;
+ }
+
+ #packages_adventure_filters .row_padding{
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #dbdbdb;
+ }
+
+ #packages_adventure_filters .glyphicon{
+    font-size: 12px;
+ }
+
+ #packages_list .row_style{
+    height:300px;
+    background-color: white;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dbdbdb;
+    padding:0;
+
+ }
+
+ #packages_list .button1{
+    border-radius: 25px;
+    border: 1px solid white;
+    padding: 5px;
+    width: 150px;
+    border-color: yellow;
+    background-color: yellow;
+ }
+
+  #packages_list .button2{
+    border-radius: 25px;
+    border: 1px solid white;
+    padding: 5px;
+    width: 150px;
+    border-color: black;
+    background-color: white;
+ }
+
+
+
+
+
+/**
+ *  Package Details Popup css
+ *  Related to package details popup only
+**/
+
+#package_detail_popup{
+
+  background-color:white;
+  margin: auto;
+  padding: auto;
+
+}
+#package_detail_popup .package_box{
+  width:80%;
+  margin:auto;
+  padding:10px;
+  border-radius: 25px;
+}
+
+#package_detail_popup .slider{
+  background-color: #d5d5d5;
+  height:330px;
+}
+
+#package_detail_popup .slider_padding{
+    padding-top:25px;
+
+}
+
+
+#package_detail_popup .not_available_image{
+
+    margin-top: 5%;
+    margin-left: -6%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+
+
+}
+
+
+#package_detail_popup .icons{
+  text-align:center;
+  height:60px;
+  color:white;
+}
+
+#package_detail_popup .circle_green{
+  width: 60px;
+  height: 60px;
+  background: #01c020;
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  padding:15px;
+}
+
+#package_detail_popup .circle_red{
+  width: 60px;
+  height: 60px;
+  background: #b50101;
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  padding:15px;
+}
+
+#package_detail_popup .button1{
+
+    border-radius: 25px;
+    border: 1px solid black;
+    padding: 2px;
+    width: 100px;
+    background-color: white;
+
+}
+
+#package_detail_popup .button2{
+
+    border-radius: 25px;
+    border: 1px solid #f1d21f;
+    padding: 2px;
+    width: 100px;
+    background-color: #f1d21f;
+
+}
+
+
+
+
+/**
+ *  Contact Form css
+ *  Related to contact form page only
+**/
+
+#contact-form .button1{
+
+    border-radius: 25px;
+    border: 1px solid white;
+    padding: 5px;
+    width: 200px;
+    background-color: yellow;
+    color:black;
+
+}
+
+#query-form .remarks{
+    color:gray;
+}
+
+
+/**
+ *  Menu page css
+ *  Related to menu page only
+**/
+
+#menu_heads .menu_height{
+    margin-top: 20px;
+}
+
+#menu_heads .menu_height a{
+  color:black;
+}
+
+#menu_heads dd{
+  margin-top: 20px;
+}
+
+
+#menu_images{
+    width:100%;
+}
+
+/**
+ *  Hover effect  css
+ *  Related to mouseover effect only
+**/
+
+#home_adventure_images .hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+#home_adventure_images .hovereffect .overlay {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0,1);
+  -ms-transform: scale(0,1);
+  transform: scale(0,1);
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+#home_adventure_images .hovereffect:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=0);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+#home_destination_blocks .hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+#home_destination_blocks .hovereffect .overlay {
+  position: absolute;
+  overflow: hidden;
+  width: 85%;
+  height: 90%;
+  top: 0%;
+  left:9%;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0,1);
+  -ms-transform: scale(0,1);
+  transform: scale(0,1);
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+#home_destination_blocks .hovereffect:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=0);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+
+/**
+ * Menu Related
+ *
+**/
+.navbar-right .month{
+  border-radius: 25px;
+    border: 1px solid white;
+    padding: 2px;
+    width: 100px;
+    background-color: yellow;
+    color:white;
+}
+
+.navbar-right .m_top{
+  text-decoration: none;
+}
+
+
+#success_message{ display: none;}
